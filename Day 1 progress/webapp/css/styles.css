@@ -1,0 +1,99 @@
+body {
+    background-image: url(../assets/register.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.regbox{
+    width: 400px;
+    height: 810px;
+    background: #2f3542;
+    margin: 0;
+    padding: 30px;
+    top: 80%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.regbox h1 {
+ 
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.regbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.regbox input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.box input[type="text"],
+.box input[type="password"],
+.box input[type="date"],
+.box input[type="number"], 
+.box input[type="email"]  {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 60px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.regbox input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.regbox input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.regbox a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 50%;
+}
+
+.regbox a:hover {
+    color: #eccc68;
+}
