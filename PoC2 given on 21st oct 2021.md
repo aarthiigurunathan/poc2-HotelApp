@@ -17,11 +17,10 @@ Given Requirement:
 Work done by me:
 
 1.	Created Separate Packages (MVC) like:
-i.	View – JSP and HTML, CSS files
-ii.	Controller - .java files which handles the servlet DB of the project
-iii.	Util.dao – For Database connection and which is called as import package in controller files
+ i. View – JSP and HTML, CSS files
+ ii. Controller - .java files which handles the servlet DB of the project
+ iii.Util.dao – For Database connection and which is called as import package in controller files
 2.	Differentiated Admin and User login.
 3.	Also, showed their room booked information in separate My Booking page, which gives information according to their individual login.
 4.	Room availability information is also updated in database, which can be accessed by admin.
 5.	Handled Session Login ( Logout partially done )
-
